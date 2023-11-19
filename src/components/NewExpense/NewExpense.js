@@ -1,11 +1,12 @@
 import ExpenseForm from "./ExpenseForm";
+import Card from "../UI/Card";
 import "./NewExpense.css";
 
 function NewExpense() {
   return (
-    <div className="new-expense">
+    <Card className="new-expense">
       <ExpenseForm />
-    </div>
+    </Card>
   );
 }
 
